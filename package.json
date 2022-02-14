@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "jest"
+    "test": "jest",
+    "web": "npm start"
   },
   "author": "",
   "license": "ISC",
@@ -21,5 +22,9 @@
   },
   "devDependencies": {
     "jest": "^27.5.1"
-  }
+  },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/katiechurchwell/just-tech-news"
+    }
 }
